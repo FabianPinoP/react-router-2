@@ -1,0 +1,19 @@
+.app{
+  background-color: black;
+}
+
+.container-form{
+  max-width: 30vw;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.characters-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.character-card {
+  flex: 1 1 33%;
+  margin-bottom: 10px;
+}
